@@ -10,7 +10,7 @@ import pl.pojo.tester.api.assertion.Method;
  */
 public class TestAll {
   @Test
-  public void GoodTest() {
+  public void goodTest() {
     // given
     final Class<?> classUnderTest = Good.class;
 
@@ -24,7 +24,7 @@ public class TestAll {
   }
 
   @Test
-  public void Bad1Test() {
+  public void bad1Test() {
     // given
     final Class<?> classUnderTest = Bad1.class;
 
@@ -38,7 +38,7 @@ public class TestAll {
   }
 
   @Test
-  public void Bad2aTest() {
+  public void bad2aTest() {
     // given
     final Class<?> classUnderTest = Bad2a.class;
 
@@ -51,7 +51,7 @@ public class TestAll {
         .areWellImplemented();
   }
   @Test
-  public void Bad2bTest() {
+  public void bad2bTest() {
     // given
     final Class<?> classUnderTest = Bad2b.class;
 
@@ -64,7 +64,7 @@ public class TestAll {
         .areWellImplemented();
   }
   @Test
-  public void Bad2cTest() {
+  public void bad2cTest() {
     // given
     final Class<?> classUnderTest = Bad2c.class;
 
@@ -77,7 +77,7 @@ public class TestAll {
         .areWellImplemented();
   }
   @Test
-  public void Bad2dTest() {
+  public void bad2dTest() {
     // given
     final Class<?> classUnderTest = Bad2d.class;
 
@@ -90,7 +90,7 @@ public class TestAll {
         .areWellImplemented();
   }
   @Test
-  public void Bad3aTest() {
+  public void bad3aTest() {
     // given
     final Class<?> classUnderTest = Bad3a.class;
 
@@ -103,7 +103,7 @@ public class TestAll {
         .areWellImplemented();
   }
   @Test
-  public void Bad3bTest() {
+  public void bad3bTest() {
     // given
     final Class<?> classUnderTest = Bad3b.class;
 
@@ -116,7 +116,7 @@ public class TestAll {
         .areWellImplemented();
   }
   @Test
-  public void Bad3cTest() {
+  public void bad3cTest() {
     // given
     final Class<?> classUnderTest = Bad3c.class;
 
@@ -129,7 +129,7 @@ public class TestAll {
         .areWellImplemented();
   }
   @Test
-  public void Bad4aTest() {
+  public void bad4aTest() {
     // given
     final Class<?> classUnderTest = Bad4a.class;
 
@@ -142,7 +142,7 @@ public class TestAll {
         .areWellImplemented();
   }
   @Test
-  public void Bad4bTest() {
+  public void bad4bTest() {
     // given
     final Class<?> classUnderTest = Bad4b.class;
 
