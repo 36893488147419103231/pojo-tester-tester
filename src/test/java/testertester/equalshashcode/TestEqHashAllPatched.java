@@ -6,7 +6,7 @@ import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import pl.pojo.tester.api.assertion.Method;
-import pl.pojo.tester.internal.pl.pojo.tester.patch.LinearPatch;
+import pl.pojo.tester.patch.LinearPatch;
 
 /**
  * Created by me on 21/08/17.

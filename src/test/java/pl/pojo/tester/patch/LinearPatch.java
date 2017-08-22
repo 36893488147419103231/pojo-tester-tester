@@ -1,4 +1,4 @@
-package pl.pojo.tester.internal.pl.pojo.tester.patch;
+package pl.pojo.tester.patch;
 
 import java.lang.reflect.Field;
 import pl.pojo.tester.api.assertion.Method;

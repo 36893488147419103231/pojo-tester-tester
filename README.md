@@ -2,7 +2,7 @@
 
 This is a simple project that test the pojo-tester from http://pojo.pl
 
-In testerterser.gettersandsetters
+## In testerterser.gettersandsetters ##
 
 The test testGood MUST succeed, and all the tests bad*Test MUST FAIL.
 
@@ -15,7 +15,7 @@ bad2c
 bad3a
 bad4b
 
-In testerterser.equalshashcode
+## In testerterser.equalshashcode ##
 
 All tests must be fast.
 Currently, smallTest succeeds, mediumTest takes a minute to succeed, and bigTest
@@ -23,3 +23,12 @@ just does not terminate. It looks like the time grows exponentially with increas
 number of fields, each next field makes the test 2x slower.
 
 
+
+## Proposed fix for exponential time growth (it's rather a hack) ##
+
+see the source in: `src/test/java/pl/pojo/*`
+
+see the usage in: `src/test/java/testertester/equalshashcode/TestEqHashAllPatched.java`
+
+Basically, instead of generating all 2^N permutations of N fields, we use N subsequences
+of N fields.
